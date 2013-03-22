@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>myComment</comment>
+<entry key="ShowRemote">false</entry>
+<entry key="ExperimentScript">/net/k14/u/etudiant/hliu1/Downloads/touchstone-workspace/PointingWithDistractors/experiment.xml</entry>
+<entry key="MasterLogFile">false</entry>
+<entry key="OSCEnabled">false</entry>
+<entry key="StartingBlock">1</entry>
+<entry key="PlatformPort">8888</entry>
+<entry key="ParticipantID">S0</entry>
+<entry key="ParticipantName">test1</entry>
+<entry key="StartingTrial">1</entry>
+<entry key="ClientPorts">-1</entry>
+</properties>

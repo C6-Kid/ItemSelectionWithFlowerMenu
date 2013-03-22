@@ -1,0 +1,2370 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<experiment author="Hantang Liu and Shaiful Alam"
+    description="Ask participants to perform the selection tasks without invoking the novice mode.If they do it we will give score 1 to them and maximize it to encourage participants.If they invoke the novice mode then they will get 0.  &#xa;The participants will do the same task in grouping Flower menus and original flower menus. In this way we can cpmpare which menu is better."
+    id="ItemSelectionWithFlowerMenu" name="Comparing original Flower menus and grouping Flower menus">
+    <factor id="Number of items" kind="key"
+        name="Number of items of the menu" tag="Within Subject" type="Integer">
+        <value id="24" name=""/>
+        <value id="48" name=""/>
+    </factor>
+    <factor id="Arrangement of items" kind="key"
+        name="Arrangement of items" tag="Within Subject" type="String">
+        <value id=" Well-grouped" name=""/>
+        <value id=" Not well-grouped " name=""/>
+    </factor>
+    <measure cine_log="ok" id="trialStarted"
+        name="Time when trial started" type="Integer"/>
+    <measure cine_log="ok" id="trialEnded" name="Time when trial ended" type="Integer"/>
+    <measure cine_log="ok" id="time" name="Time from start" type="Integer"/>
+    <measure cine_log="ok" id="MT" name="Movement time" type="Integer"/>
+    <measure cine="ok" id="Number of items"
+        name="Number of items of the menu" type="Integer"/>
+    <measure cine="ok" id="Arrangement of items"
+        name="Arrangement of items" type="String"/>
+    <measure id="NoviceModeInvoked" log="ok"
+        name="Number of times the novice mode is invoked" type="Integer"/>
+    <run id="S0">
+        <setup class="SetUp"/>
+        <intertrial class="DisplayItemNameToSelect" criterion="Press({Space})">
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="1"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="2"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="3"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="4"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="5"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="6"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="7"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="8"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+        </intertrial>
+    </run>
+    <run id="S1">
+        <setup class="SetUp"/>
+        <intertrial class="DisplayItemNameToSelect" criterion="Press({Space})">
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="1"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="2"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="3"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="4"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="5"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="6"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="7"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="8"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+        </intertrial>
+    </run>
+    <run id="S2">
+        <setup class="SetUp"/>
+        <intertrial class="DisplayItemNameToSelect" criterion="Press({Space})">
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="1"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="2"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="3"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="4"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="5"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="6"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="7"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="8"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+        </intertrial>
+    </run>
+    <run id="S3">
+        <setup class="SetUp"/>
+        <intertrial class="DisplayItemNameToSelect" criterion="Press({Space})">
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="1"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="2"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="3"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="4"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="5"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="6"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="7"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="8"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+        </intertrial>
+    </run>
+    <run id="S4">
+        <setup class="SetUp"/>
+        <intertrial class="DisplayItemNameToSelect" criterion="Press({Space})">
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="1"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="2"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="3"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="4"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="5"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="6"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="7"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="8"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+        </intertrial>
+    </run>
+    <run id="S5">
+        <setup class="SetUp"/>
+        <intertrial class="DisplayItemNameToSelect" criterion="Press({Space})">
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="1"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="2"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="3"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="4"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="5"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="6"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="7"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="8"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+        </intertrial>
+    </run>
+    <run id="S6">
+        <setup class="SetUp"/>
+        <intertrial class="DisplayItemNameToSelect" criterion="Press({Space})">
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="1"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="2"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="3"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="4"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="5"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="6"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="7"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="8"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+        </intertrial>
+    </run>
+    <run id="S7">
+        <setup class="SetUp"/>
+        <intertrial class="DisplayItemNameToSelect" criterion="Press({Space})">
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="1"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="2"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="3"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="4"
+                    total="8" values="Arrangement of items= Well-grouped,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="5"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="6"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=24">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="7"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+            <interblock class="NewBlock" criterion="Press({Space})">
+                <block class="ItemSelectionWithFlowerMenu"
+                    criterionTrial="RightItemSelected" number="8"
+                    total="8" values="Arrangement of items= Not well-grouped ,Number of items=48">
+                    <trial number="0" total="30"/>
+                    <trial number="1" total="30"/>
+                    <trial number="2" total="30"/>
+                    <trial number="3" total="30"/>
+                    <trial number="4" total="30"/>
+                    <trial number="5" total="30"/>
+                    <trial number="6" total="30"/>
+                    <trial number="7" total="30"/>
+                    <trial number="8" total="30"/>
+                    <trial number="9" total="30"/>
+                    <trial number="10" total="30"/>
+                    <trial number="11" total="30"/>
+                    <trial number="12" total="30"/>
+                    <trial number="13" total="30"/>
+                    <trial number="14" total="30"/>
+                    <trial number="15" total="30"/>
+                    <trial number="16" total="30"/>
+                    <trial number="17" total="30"/>
+                    <trial number="18" total="30"/>
+                    <trial number="19" total="30"/>
+                    <trial number="20" total="30"/>
+                    <trial number="21" total="30"/>
+                    <trial number="22" total="30"/>
+                    <trial number="23" total="30"/>
+                    <trial number="24" total="30"/>
+                    <trial number="25" total="30"/>
+                    <trial number="26" total="30"/>
+                    <trial number="27" total="30"/>
+                    <trial number="28" total="30"/>
+                    <trial number="29" total="30"/>
+                </block>
+            </interblock>
+        </intertrial>
+    </run>
+</experiment>

@@ -1,0 +1,16 @@
+# DistrPoint:Pointing with distractors
+# MT:Movement time
+# HIT:Success
+# inPractice:practice block
+# A:Target Amplitude
+# W:Target Width
+# D:Distractor Density
+# HitDistractor:Press on a distractor
+# HitBG:Press on background
+# Mouse.x:
+# Mouse.y:
+# Mouse.Left:
+# Date: 2013-03-22-11-51-23
+# Participant: S0
+block	trial	MT	HIT	inPractice	A	W	D	HitDistractor	HitBG	Mouse.x	Mouse.y	Mouse.Left	
+Integer	String	String	Integer	Integer	String	Integer	Integer	Integer	Integer	Integer	

@@ -1,0 +1,11 @@
+# ItemSelectionWithFlowerMenu:Comparing original Flower menus and grouping Flower menus
+# trialStarted:Time when trial started
+# trialEnded:Time when trial ended
+# time:Time from start
+# MT:Movement time
+# Number of items:Number of items of the menu
+# Arrangement of items:Arrangement of items
+# Date: 2013-03-22-12-29-48
+# Participant: S0
+block	trial	trialStarted	trialEnded	time	MT	Number of items	Arrangement of items	
+Integer	Integer	Integer	Integer	Integer	String	

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<project name="distrpoint" default="default">
+	<description>
+	measures pointing performance when there are distractors on the trajectory.
+	</description>
+
+	<import file="../run-platform/touchstone-plugin.xml"/>
+
+	<property name="Name" value="distrpoint"/>
+	<property name="name" value="distrpoint"/>
+	<property name="year" value="2011"/>
+	<property name="Vendor" value="caroline appert"/>
+	<property name="URL" value="http://touchstone.lri.fr/"/>
+
+	<!-- dependencies to other plugins -->
+
+	<property name="dependencies" value="Core "/>
+	<path id="deps-jars">
+	</path>
+
+	<!-- =================================
+		target: init
+	================================= -->
+
+	<target name="init" depends="touchstone-plugin.init" description="--> Local initializations">
+	</target>
+
+	<!-- =================================
+		target: default
+	================================= -->
+
+	<target name="default" depends="jar" description="--> description">
+	</target>
+
+</project>

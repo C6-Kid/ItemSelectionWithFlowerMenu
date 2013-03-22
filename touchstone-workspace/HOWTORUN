@@ -1,0 +1,12 @@
+cd /net/k14/u/etudiant/hliu1/Downloads/touchstone-workspace/PointingWithDistractors
+
+cd /net/k14/u/etudiant/hliu1/Downloads/touchstone-workspace/ItemSelectionWithFlowerMenu
+
+cd /net/k14/u/etudiant/hliu1/workspace/ItemSelectionWithFlowerMenu
+
+./build.sh run
+
+
+cd /net/k14/u/etudiant/hliu1/Downloads/touchstone-workspace/design-platform
+
+./launch-design.sh

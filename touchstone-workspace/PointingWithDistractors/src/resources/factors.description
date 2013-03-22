@@ -1,0 +1,12 @@
+id:A
+name:Target Amplitude
+help:null
+type:number
+id:D
+name:Distractor Density
+help:null
+type:character
+id:W
+name:Target Width
+help:null
+type:number

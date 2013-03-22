@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.0
+Created-By: Caroline Appert and Jean-Daniel Fekete
+Built-By: hliu1
+Main-Class: fr.inria.insitu.touchstone.LaunchExperiment
+Class-Path: 
+
+Name: common
+Implementation-Title: distrpoint
+Implementation-Version: 20130322beta March 22 2013
+Implementation-Vendor: INRIA Futurs, France
+Implementation-URL: http://insitu.lri.fr
+

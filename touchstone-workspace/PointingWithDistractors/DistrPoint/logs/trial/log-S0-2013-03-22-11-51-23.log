@@ -1,0 +1,11 @@
+# DistrPoint:Pointing with distractors
+# A:Target Amplitude
+# W:Target Width
+# D:Distractor Density
+# MT:Movement time
+# HIT:Success
+# inPractice:practice block
+# HIT: success
+# Date: 2013-03-22-11-51-23
+experiment	participant	block	trial	A	W	D	MT	HIT	inPractice
+nominal	nominal	integer	integer	Integer	Integer	String	Integer	String	String

@@ -1,0 +1,8 @@
+id:Number of items
+name:Number of items of the menu
+help:null
+type:number
+id:Arrangement of items
+name:Arrangement of items
+help:null
+type:character

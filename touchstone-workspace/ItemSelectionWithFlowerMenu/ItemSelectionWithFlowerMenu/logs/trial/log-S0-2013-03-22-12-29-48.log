@@ -1,0 +1,12 @@
+# ItemSelectionWithFlowerMenu:Comparing original Flower menus and grouping Flower menus
+# Number of items:Number of items of the menu
+# Arrangement of items:Arrangement of items
+# trialStarted:Time when trial started
+# trialEnded:Time when trial ended
+# time:Time from start
+# MT:Movement time
+# NoviceModeInvoked:Number of times the novice mode is invoked
+# HIT: success
+# Date: 2013-03-22-12-29-48
+experiment	participant	block	trial	Number of items	Arrangement of items	trialStarted	trialEnded	time	MT	NoviceModeInvoked
+nominal	nominal	integer	integer	Integer	String	Integer	Integer	Integer	Integer	Integer

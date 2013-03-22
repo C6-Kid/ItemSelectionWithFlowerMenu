@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.0
+Created-By: Caroline Appert and Jean-Daniel Fekete
+Built-By: appert
+Main-Class: fr.inria.insitu.touchstone.run.LaunchExperiment
+Class-Path: lib/SwingStates.jar lib/TableLayout.jar lib/antlr.jar lib/
+ commons-lang-2.1.jar lib/javaosc.jar lib/jdom.jar lib/jinput-test.jar
+  lib/jinput.jar lib/js.jar
+
+Name: common
+Implementation-Title: TOUCHSTONE
+Implementation-Version: 0.1alpha October 23 2011
+Implementation-Vendor: INRIA Futurs, France
+Implementation-URL: http://insitu.lri.fr
+

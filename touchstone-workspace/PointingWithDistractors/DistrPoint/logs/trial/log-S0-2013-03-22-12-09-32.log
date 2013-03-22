@@ -1,0 +1,95 @@
+# DistrPoint:Pointing with distractors
+# A:Target Amplitude
+# W:Target Width
+# D:Distractor Density
+# MT:Movement time
+# HIT:Success
+# inPractice:practice block
+# HIT: success
+# Date: 2013-03-22-12-09-32
+experiment	participant	block	trial	A	W	D	MT	HIT	inPractice
+nominal	nominal	integer	integer	Integer	Integer	String	Integer	String	String
+DistrPoint	S0	1	1	400	20	low	966	Hit target	true
+DistrPoint	S0	1	2	400	20	low	967	Hit target	true
+DistrPoint	S0	1	3	400	20	low	1112	Hit target	true
+DistrPoint	S0	1	4	400	20	low	1144	Hit target	true
+DistrPoint	S0	1	5	400	20	low	1008	Hit target	true
+DistrPoint	S0	1	6	400	20	low	984	Hit target	true
+DistrPoint	S0	1	7	400	20	low	1288	Hit target	true
+DistrPoint	S0	1	8	400	20	low	1008	Hit target	true
+DistrPoint	S0	2	1	400	20	medium	1339	Hit target	true
+DistrPoint	S0	2	2	400	20	medium	951	Hit target	true
+DistrPoint	S0	2	3	400	20	medium	1231	Hit target	true
+DistrPoint	S0	2	4	400	20	medium	1143	Hit target	true
+DistrPoint	S0	2	5	400	20	medium	991	Hit target	true
+DistrPoint	S0	2	6	400	20	medium	1039	Hit target	true
+DistrPoint	S0	2	7	400	20	medium	1823	Hit target	true
+DistrPoint	S0	2	8	400	20	medium	1167	Hit target	true
+DistrPoint	S0	3	1	400	20	high	1354	Hit target	true
+DistrPoint	S0	3	2	400	20	high	925	Hit target	true
+DistrPoint	S0	3	3	400	20	high	997	Hit target	true
+DistrPoint	S0	3	4	400	20	high	1118	Hit target	true
+DistrPoint	S0	3	5	400	20	high	1590	Hit target	true
+DistrPoint	S0	3	6	400	20	high	1469	Hit target	true
+DistrPoint	S0	3	7	400	20	high	1469	Hit target	true
+DistrPoint	S0	3	8	400	20	high	1166	Hit target	true
+DistrPoint	S0	4	1	200	40	high	892	Hit target	false
+DistrPoint	S0	4	2	200	40	high	680	Hit target	false
+DistrPoint	S0	4	3	200	40	high	888	Hit target	false
+DistrPoint	S0	4	4	200	40	high	624	Hit target	false
+DistrPoint	S0	4	5	200	40	high	680	Hit target	false
+DistrPoint	S0	4	6	200	40	high	576	Hit target	false
+DistrPoint	S0	4	7	200	40	high	711	Hit target	false
+DistrPoint	S0	4	8	200	40	high	544	Hit target	false
+DistrPoint	S0	4	9	200	40	high	840	Hit target	false
+DistrPoint	S0	4	10	200	40	high	696	Hit target	false
+DistrPoint	S0	5	1	200	40	high	932	Hit target	false
+DistrPoint	S0	5	2	200	40	high	752	Hit target	false
+DistrPoint	S0	5	3	200	40	high	984	Hit target	false
+DistrPoint	S0	5	4	200	40	high	808	Hit target	false
+DistrPoint	S0	5	5	200	40	high	888	Hit target	false
+DistrPoint	S0	5	6	200	40	high	1016	Hit target	false
+DistrPoint	S0	5	7	200	40	high	671	Hit target	false
+DistrPoint	S0	5	8	200	40	high	839	Hit target	false
+DistrPoint	S0	5	9	200	40	high	607	Hit target	false
+DistrPoint	S0	5	10	200	40	high	664	Hit target	false
+DistrPoint	S0	6	1	200	40	high	435	Hit target	false
+DistrPoint	S0	6	2	200	40	high	783	Hit target	false
+DistrPoint	S0	6	3	200	40	high	663	Hit target	false
+DistrPoint	S0	6	4	200	40	high	575	Hit target	false
+DistrPoint	S0	6	5	200	40	high	647	Hit target	false
+DistrPoint	S0	6	6	200	40	high	1175	Hit target	false
+DistrPoint	S0	6	7	200	40	high	1016	Hit target	false
+DistrPoint	S0	6	8	200	40	high	687	Hit target	false
+DistrPoint	S0	6	9	200	40	high	711	Hit target	false
+DistrPoint	S0	6	10	200	40	high	743	Hit target	false
+DistrPoint	S0	7	1	200	40	high	611	Hit target	false
+DistrPoint	S0	7	2	200	40	high	1335	Hit target	false
+DistrPoint	S0	7	3	200	40	high	631	Hit target	false
+DistrPoint	S0	7	4	200	40	high	527	Hit target	false
+DistrPoint	S0	7	5	200	40	high	583	Hit target	false
+DistrPoint	S0	7	6	200	40	high	520	Hit target	false
+DistrPoint	S0	7	7	200	40	high	591	Hit target	false
+DistrPoint	S0	7	8	200	40	high	519	Hit target	false
+DistrPoint	S0	7	9	200	40	high	607	Hit target	false
+DistrPoint	S0	7	10	200	40	high	743	Hit target	false
+DistrPoint	S0	8	1	200	20	low	859	Hit target	false
+DistrPoint	S0	8	2	200	20	low	863	Hit target	false
+DistrPoint	S0	8	3	200	20	low	687	Hit target	false
+DistrPoint	S0	8	4	200	20	low	679	Hit target	false
+DistrPoint	S0	8	5	200	20	low	1711	Hit target	false
+DistrPoint	S0	8	6	200	20	low	767	Hit target	false
+DistrPoint	S0	8	7	200	20	low	679	Hit target	false
+DistrPoint	S0	8	8	200	20	low	1319	Hit target	false
+DistrPoint	S0	8	9	200	20	low	791	Hit target	false
+DistrPoint	S0	8	10	200	20	low	1015	Hit target	false
+DistrPoint	S0	9	1	200	20	low	787	Hit target	false
+DistrPoint	S0	9	2	200	20	low	1383	Hit target	false
+DistrPoint	S0	9	3	200	20	low	799	Hit target	false
+DistrPoint	S0	9	4	200	20	low	823	Hit target	false
+DistrPoint	S0	9	5	200	20	low	815	Hit target	false
+DistrPoint	S0	9	6	200	20	low	639	Hit target	false
+DistrPoint	S0	9	7	200	20	low	1167	Hit target	false
+DistrPoint	S0	9	8	200	20	low	799	Hit target	false
+DistrPoint	S0	9	9	200	20	low	1143	Hit target	false
+DistrPoint	S0	9	10	200	20	low	727	Hit target	false

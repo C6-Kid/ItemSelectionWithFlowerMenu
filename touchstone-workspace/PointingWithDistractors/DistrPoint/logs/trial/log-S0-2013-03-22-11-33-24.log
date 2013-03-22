@@ -1,0 +1,19 @@
+# DistrPoint:Pointing with distractors
+# A:Target Amplitude
+# W:Target Width
+# D:Distractor Density
+# MT:Movement time
+# HIT:Success
+# inPractice:practice block
+# HIT: success
+# Date: 2013-03-22-11-33-24
+experiment	participant	block	trial	A	W	D	MT	HIT	inPractice
+nominal	nominal	integer	integer	Integer	Integer	String	Integer	String	String
+DistrPoint	S0	1	1	400	20	low	1226	Hit target	true
+DistrPoint	S0	1	2	400	20	low	807	Hit target	true
+DistrPoint	S0	1	3	400	20	low	967	Hit target	true
+DistrPoint	S0	1	4	400	20	low	920	Hit target	true
+DistrPoint	S0	1	5	400	20	low	1015	Hit target	true
+DistrPoint	S0	1	6	400	20	low	911	Hit target	true
+DistrPoint	S0	1	7	400	20	low	908	Hit target	true
+DistrPoint	S0	1	8	400	20	low	738	Hit target	true

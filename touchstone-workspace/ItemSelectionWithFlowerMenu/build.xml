@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<project name="itemselectionwithflowermenu" default="default">
+	<description>
+	ask participants to perform the selection tasks without invoking the novice mode.if they do it we will give score 1 to them and maximize it to encourage participants.if they invoke the novice mode then they will get 0.   the participants will do the same task in grouping flower menus and original flower menus. in this way we can cpmpare which menu is better.
+	</description>
+
+	<import file="../run-platform/touchstone-plugin.xml"/>
+
+	<property name="Name" value="itemselectionwithflowermenu"/>
+	<property name="name" value="itemselectionwithflowermenu"/>
+	<property name="year" value="2013"/>
+	<property name="Vendor" value="hantang liu and shaiful alam"/>
+	<property name="URL" value="http://touchstone.lri.fr/"/>
+
+	<!-- dependencies to other plugins -->
+
+	<property name="dependencies" value="Core "/>
+	<path id="deps-jars">
+	</path>
+
+	<!-- =================================
+		target: init
+	================================= -->
+
+	<target name="init" depends="touchstone-plugin.init" description="--> Local initializations">
+	</target>
+
+	<!-- =================================
+		target: default
+	================================= -->
+
+	<target name="default" depends="jar" description="--> description">
+	</target>
+
+</project>
